@@ -13,6 +13,8 @@ export default function Home() {
     });
   };
 
+  
+
   return (
     <div>
       <button
@@ -21,6 +23,7 @@ export default function Home() {
       >
         Add to Cart
       </button>
+      <h1 className="text-rose-500 font-bold">Hello </h1>
     </div>
   );
 }
